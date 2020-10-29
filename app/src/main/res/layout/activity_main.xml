@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Tính toán"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="#f00000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#f00000"
+        android:textSize="30sp"
+        android:text="Nhập số A :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editsoa"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+    <TextView
+        android:textColor="#f00000"
+        android:textSize="30sp"
+        android:text="Nhập số B :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editsob"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/buttonkq"
+        android:layout_gravity="center"
+        android:text="Kết quả"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textviewkq"
+        android:textColor="#F00000"
+        android:textSize="30sp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
